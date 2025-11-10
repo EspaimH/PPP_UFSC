@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navegador Curricular de Psicologia UFSC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      .toggle-checkbox:checked {
+        right: 0;
+        border-color: #4f46e5; /* indigo-600 */
+        transform: translateX(0);
+      }
+      .toggle-checkbox:checked + .toggle-label {
+        background-color: #6366f1; /* indigo-500 */
+      }
+      .toggle-checkbox {
+        transform: translateX(0);
+        transition: transform 0.2s ease-in-out;
+      }
+      .toggle-checkbox:checked {
+        transform: translateX(100%);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50 text-gray-800">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
