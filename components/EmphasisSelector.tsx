@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { EMPHASES, EmphasisKey } from '../data/courses';
 
