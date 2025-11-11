@@ -1,1 +1,1 @@
-PPP ufsc preguiça descrever
+Fazer rodar offline
